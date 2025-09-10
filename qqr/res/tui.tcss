@@ -1,0 +1,65 @@
+/* Breakpoints */
+Screen {
+	Grid {
+		grid-rows: auto;
+		height: auto;
+	}
+
+	&.-narrow {
+		Grid {
+			grid-size: 1;
+		}
+	}
+
+	&.-normal {
+		Grid {
+			grid-size: 1;
+		}
+	}
+
+	&.-wide {
+		Grid {
+			grid-size: 2;
+		}
+	}
+
+	&.-very-wide {
+		Grid {
+			grid-size: 2;
+		}
+	}
+}
+
+Help {
+	border: round $border;
+}
+
+FormHeader {
+	height: 1;
+	dock: top;
+}
+
+FormGrid {
+	padding: 2;
+}
+
+TextArea {
+	height: auto;
+}
+
+Container Grid Container {
+	height: auto;
+	border: round $secondary;
+}
+
+#surface {
+	height: auto;
+	border: round $secondary;
+	padding: 2;
+	margin: 1;
+}
+
+#qr_button {
+	width: 100%;
+	margin: 1 0;
+}
