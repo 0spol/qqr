@@ -1,0 +1,5 @@
+segno>=1.6.6
+rich>=14.1.0
+typer>=0.17.4
+textual>=6.1.0
+markdown-it-py>=4.0.0
