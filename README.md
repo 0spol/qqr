@@ -21,18 +21,61 @@
 ---
 ## Setup
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/0spol/qqr.git
-   ```
+Here’s a **cleaned-up and improved version** of your setup guide. I’ve added clarity, consistent formatting, and explicit instructions for both CLI and TUI usage:
 
 ---
-## Contributing
 
+## Setup
+
+1. **Clone the repository**:
+
+```powershell
+git clone https://github.com/0spol/qqr.git
+cd qqr
+```
+
+2. **Create and activate a virtual environment**:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1      # Windows PowerShell
+# Or for Command Prompt:
+# .venv\Scripts\activate.bat
+# Or for Linux/macOS:
+# source .venv/bin/activate
+```
+
+3. **Upgrade pip**:
+
+```powershell
+python -m pip install --upgrade pip
+```
+
+4. **Install the project**:
+
+```powershell
+pip install .
+```
+
+* This will install all required dependencies and make the `qqr` and `tui` commands available.
+
+5. **Run the application**:
+
+* **CLI mode**:
+
+```powershell
+qqr --help
+```
+
+* **TUI mode**:
+
+```powershell
+tui
+```
+
+## Contributing
 Read our [Contributing Guide](./CONTRIBUTING.md) to learn about:
 
----
 ## Code of Conduct
 This repository has adopted a Code of Conduct for all participants.
 Please read the [full text](./CODE_OF_CONDUCT.md) to understand what actions will and will not be tolerated.
