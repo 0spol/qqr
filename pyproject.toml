@@ -34,4 +34,4 @@ dependencies = [
 
 [project.scripts]
 qqr = "qqr.qqr:main"
-qqr-tui = "qqr.tui:main"
+tui = "qqr.tui:main"

@@ -233,5 +233,8 @@ class QQR(App[None]):
         "nord" if self.theme == "gruvbox" else "gruvbox"
         )
         
+def main():
+    QQR().run()  
+
 if __name__ == "__main__":
-    QQR().run()
+    main()

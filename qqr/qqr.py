@@ -104,5 +104,8 @@ Supported formats:
     
     typer.echo(f"[green]QR code generated successfully:[/green] {output}")
 
+def main():
+    app() 
+
 if __name__ == "__main__":
-    app()
+    main()
