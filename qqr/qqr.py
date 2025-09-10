@@ -1,7 +1,7 @@
 import typer
 from typing_extensions import Annotated
-from core.utils.options import ErrorTolerance, Format
-from core.core import generate_qr
+from qqr.core.utils.options import ErrorTolerance, Format
+from qqr.core.core import generate_qr
 
 app = typer.Typer(
     help="""# QR CLI Application

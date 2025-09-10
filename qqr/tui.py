@@ -1,7 +1,7 @@
-from res.markdown import MD
-from core.utils.options import ErrorTolerance, Format
-from core.utils.checkers import text_path_check, error_check, format_check, name_check, color_check
-from core.core import generate_qr
+from qqr.res.markdown import MD
+from qqr.core.utils.options import ErrorTolerance, Format
+from qqr.core.utils.checkers import text_path_check, error_check, format_check, name_check, color_check
+from qqr.core.core import generate_qr
 from textual.app import App, ComposeResult
 from textual.binding import Binding
 from textual.containers import ScrollableContainer, Grid, Container

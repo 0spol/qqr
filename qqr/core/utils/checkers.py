@@ -1,6 +1,6 @@
 import re
 from typing import List
-from core.utils.options import ErrorTolerance, Format
+from qqr.core.utils.options import ErrorTolerance, Format
 
 def text_path_check(text: str) -> bool:
     if not text or not isinstance(text, str):
